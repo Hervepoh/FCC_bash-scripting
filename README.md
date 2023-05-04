@@ -5,8 +5,9 @@ test
 help test
 [[ hello == world ]]; echo $?
 [[ hello =~ el ]]; echo $?
-[[ "hello world"  =~ "lo wor" ]]; echo $?
-[[ "hello world"  =~ ^h ]]; echo $?
+[[ "hello world"  =~ "lo wor" ]]; echo $?      # if the string contain ,
+[[ "hello world"  =~ ^h ]]; echo $?            # if the string starts with an h,
+[[ "hello world"  =~ ^h.+d$ ]]; echo $?        # if the string starts with an h, has at least one character after it, and ends with a d.
 ```
 
 Print all environment variables
