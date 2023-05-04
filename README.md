@@ -4,6 +4,9 @@ test
 ```
 help test
 [[ hello == world ]]; echo $?
+[[ hello =~ el ]]; echo $?
+[[ "hello world"  =~ "lo wor" ]]; echo $?
+[[ "hello world"  =~ ^h ]]; echo $?
 ```
 
 Print all environment variables
