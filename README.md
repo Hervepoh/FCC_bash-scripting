@@ -1,8 +1,9 @@
 # FCC_bash-scripting
 
-View help about test
+test
 ```
 help test
+[[ hello == world ]]; echo $?
 ```
 
 Print all environment variables
