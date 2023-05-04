@@ -1,5 +1,10 @@
 # FCC_bash-scripting
 
+View help about test
+```
+help test
+```
+
 Print all environment variables
 ```
 printenv
