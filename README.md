@@ -1,5 +1,11 @@
 # FCC_bash-scripting
 
+Display information about command type.
+```
+type: type [-afptP] name [name ...]   
+```
+
+
 test
 ```
 help test
